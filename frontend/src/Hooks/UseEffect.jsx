@@ -3,6 +3,7 @@ import Usestate from './Usestate'
 
 const Useeffect = () => {
     const [count,setCount]=Usestate(0);
+    const [values,setValue]=Usestate("");
     Useeffect(()=> {
         console.log("use effect Mounted")
       },[])
